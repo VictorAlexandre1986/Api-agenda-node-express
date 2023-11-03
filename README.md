@@ -1,6 +1,14 @@
 # Api-agenda-node-express
 Api de uma agenda de compromissos em node, express, prisma e clean architecture.
 
+## Para criar o banco de dados é necessário migrar
+```
+npx prisma init
+```
+```
+npx prisma migrate dev <nome_banco>
+```
+
 ## Tecnologias utilizadas
 
 <ul>
