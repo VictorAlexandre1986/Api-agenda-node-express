@@ -8,6 +8,7 @@ Api de uma agenda de compromissos em node, express, prisma e clean architecture.
   <li>Node</li>
   <li>Express</li>
   <li>Prisma</li>
+  <li>Mysql</li>
   <li>Clean Architecture</li>
 </ul>
 
