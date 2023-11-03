@@ -1,0 +1,24 @@
+create
+POST => http://localhost:3000/compromisso
+{
+	"nome":"Victor Alexandre",
+	"compromisso":"Aprender Machine Learning!",
+	"data": "2023-11-06T00:00:00.000Z"
+}
+
+get all
+GET => http://localhost:3000/compromisso
+
+get by id
+GET => http://localhost:3000/compromisso/1
+
+delete
+DELETE => http://localhost:3000/compromisso/3
+
+update
+put => http://localhost:3000/compromisso/2
+{
+	"nome":"Victor",
+	"compromisso":"Aprender express com clean architecture!",
+	"data": "2023-11-03T00:00:00.000Z"
+}
